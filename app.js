@@ -1,4 +1,4 @@
-const MAIN_SITE = "http://MyWHOthoughts.com";
+const MAIN_SITE = "HTTP://MyWHOthoughts.com";
 const STORAGE_KEY = "who_assessment_v2_dana";
 
 const DEFAULTS = {
@@ -30,9 +30,9 @@ const DEFAULTS = {
 };
 
 const VALUE_OPTIONS = [
-  "Respect","Excellence","Justice","Transparency","Honesty","Empathy","Perseverance","Adventure","Curiosity",
-  "Kind","Independance,"Integrity","Structure","Self Reliance","Resilience","Impact","Service","Considerate",
-  "Integrity","Authenticity","Fairness","Accountability","Reliability","Loyalty","Inclusivity","do-er", 
+  "Respect","Excellence","Justice","Transparency","Honesty","Empathy","Adventure","Curiosity",
+  "Kind","Independence,"Integrity","Structure","Self Reliance","Resilience","Impact","Service",
+  "Authenticity","Fairness","Accountability","Reliability","Loyalty","Inclusivity","Do-er", 
   "Considerate","Perseverance","Open Mind","Efficient","Gratitude","Ethics" 
 ];
 
