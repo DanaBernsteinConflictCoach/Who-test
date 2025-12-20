@@ -156,19 +156,19 @@ function renderValuesPromptsStep(){
       </div>
       <div class="field">
         <label>Why were you proud?</label>
-        <textarea id="proudWhy" placeholder="List the reasons. This is where your values show up.">${escapeHtml(state.proudWhy || "")}</textarea>
+        <textarea id="proudWhy" placeholder="List the reasons. This is where your Values show up.">${escapeHtml(state.proudWhy || "")}</textarea>
       </div>
     </div>
 
     <div class="block">
-      <h3>Prompt B: Upset / Anger Moment</h3>
+      <h3>Prompt B: Upset / Anger / Frustrated Moment</h3>
       <div class="field">
         <label>When were you most angry, frustrated, or furious (person or situation)?</label>
         <textarea id="upsetMoment" placeholder="Example: disrespected, lied to, treated unfairly, ignored...">${escapeHtml(state.upsetMoment || "")}</textarea>
       </div>
       <div class="field">
         <label>What exactly bothered you? (Why did the behavior bother you?)</label>
-        <textarea id="upsetWhy" placeholder="The 'why' reveals your values when crossed.">${escapeHtml(state.upsetWhy || "")}</textarea>
+        <textarea id="upsetWhy" placeholder="The 'why' reveals your Values when crossed.">${escapeHtml(state.upsetWhy || "")}</textarea>
       </div>
     </div>
 
@@ -178,7 +178,7 @@ function renderValuesPromptsStep(){
       <div class="pills" id="valuePills"></div>
 
       <div class="field">
-        <label>Add a candidate value (press Enter)</label>
+        <label>Add a candidate Value (press Enter)</label>
         <input id="customValue" type="text" placeholder="Type a value and press Enter (e.g., Respect, Excellence, Honesty)" />
         <div class="help">Goal: 5–12 candidates.</div>
       </div>
