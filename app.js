@@ -30,15 +30,15 @@ const DEFAULTS = {
 };
 
 const VALUE_OPTIONS = [
-  "Health","Freedom","Growth","Family","Friendship","Love","Discipline","Adventure","Curiosity",
-  "Creativity","Faith","Integrity","Mastery","Stability","Wealth","Impact","Service","Leadership",
-  "Peace","Joy","Authenticity","Courage","Excellence","Humor","Respect","Fairness","Honesty","Empathy",
-  "Accountability","Confidence","Presence","Simplicity","Patience","Reliability","Loyalty","Justice"
+  "Respect","Excellence","Justice","Transparency","Honesty","Empathy","Perseverance","Adventure","Curiosity",
+  "Kind","Independance,"Integrity","Structure","Self Reliance","Resilience","Impact","Service","Considerate",
+  "Integrity","Authenticity","Fairness","Accountability","Reliability","Loyalty","Inclusivity","do-er", 
+  "Considerate","Perseverance","Open Mind","Efficient","Gratitude","Ethics" 
 ];
 
 const IDEAL_EMOTION_OPTIONS = [
-  "Calm","Confident","Present","Energized","Grateful","Grounded","Focused","Free","Playful",
-  "Powerful","Clear","Unbothered","Connected","Safe","Inspired"
+  "Calm","Joy","Present","Energized","Grateful","Content","Freedom","Playful",
+  "Present","Clear","Connected","Inspired","Carefree"
 ];
 
 let state = loadState();
@@ -167,7 +167,7 @@ function renderValuesPromptsStep(){
         <textarea id="upsetMoment" placeholder="Example: disrespected, lied to, treated unfairly, ignored...">${escapeHtml(state.upsetMoment || "")}</textarea>
       </div>
       <div class="field">
-        <label>What exactly bothered you? (Why did it hit you?)</label>
+        <label>What exactly bothered you? (Why did the behavior bother you?)</label>
         <textarea id="upsetWhy" placeholder="The 'why' reveals your values when crossed.">${escapeHtml(state.upsetWhy || "")}</textarea>
       </div>
     </div>
@@ -242,7 +242,7 @@ function renderValuesRoadTestStep(){
 
   wrap.innerHTML = `
     <h2>Values (Road Test)</h2>
-    <p>Road test rule: <b>If someone violates it, does it evoke anger / frustration / upset?</b></p>
+    <p>Road test rule: <b>If someone crosses your Value, does it evoke anger / frustration / upset?</b></p>
 
     <div class="block">
       <h3>Instructions</h3>
@@ -255,7 +255,7 @@ function renderValuesRoadTestStep(){
     <div class="block">
       <h3>Road test each candidate</h3>
       <div id="roadList"></div>
-      <div class="help">Tip: imagine someone close to you blatantly violating it.</div>
+      <div class="help">Tip: imagine someone close to you blatantly crossing your Value.</div>
     </div>
 
     <div class="block">
@@ -352,7 +352,7 @@ function setRoadStatus(value, ans){
 
 //
 // STEP 3 — PILLARS (traits) + road test for "should be a value?"
-// Pillars are characteristics when you're happiest/best self.
+// Pillars are characteristics when you're happiest/best self, when all your defenses are down. 
 //
 function renderPillarsStep(){
   const wrap = document.createElement("div");
@@ -390,7 +390,7 @@ function renderPillarsStep(){
 
     <div class="block">
       <h3>Pillar Road Test</h3>
-      <p class="muted">If someone crosses this trait, do you get angry/upset? If YES, it belongs in Values.</p>
+      <p class="muted">If someone crosses this chacteristic, do you get angry/frustrated/upset? If YES, it belongs in Values.</p>
       <div id="pillarRoad"></div>
     </div>
 
@@ -518,7 +518,7 @@ function renderIdealEmotionStep(){
 
   wrap.innerHTML = `
     <h2>Ideal Emotion</h2>
-    <p>Your Ideal Emotion is your compass. When you’re not feeling it, revisit Values + Pillars.</p>
+    <p>Your Ideal Emotion is what you want to feel each day. When you’re not feeling it, revisit Values + Pillars.</p>
 
     <div class="grid">
       <div class="field">
