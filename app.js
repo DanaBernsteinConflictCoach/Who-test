@@ -388,13 +388,13 @@ function renderPillarsStep(){
         <label>When were you your happiest and most YOU? (Where / with who / doing what?)</label>
         <textarea id="happiestMoment" placeholder="Example: on vacation, with friends, reading, building something, outdoors...">${escapeHtml(state.happiestMoment || "")}</textarea>
       </div>
-      <div class="help">Now list 3–6 characteristics that describe you in that state.</div>
+      <div class="help">Now list 3–6 characteristics that describe you in that "best moment" state.</div>
     </div>
 
     <div class="block">
       <h3>Add Pillar candidates (traits)</h3>
       <div class="field">
-        <label>Add a trait (press Enter)</label>
+        <label>Add a trait (then press Enter)</label>
         <input id="customPillarTrait" type="text" placeholder="Example: Community, Passion, Problem Solver, Service, Connected, Builder, Optimist, Creative, Present, Earthy, Playful, Calm, Bold, Curious, Grounded..." />
       </div>
 
