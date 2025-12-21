@@ -135,13 +135,8 @@
       <p>
         © <span id="year"></span> 
 
-const link = document.createElement("a");
-link.href = "https://www.mywhothoughts.com";
-link.textContent = "MyWHOthoughts.com";
-link.target = "_blank"; // optional
-link.rel = "noopener noreferrer";
-
-document.body.appendChild(link);        
+document.getElementById("footerLink").innerHTML =
+  '<a href="https://www.mywhothoughts.com" target="_blank">MyWHOthoughts.com</a>';     
 
        
   Based on the book "It's the Thought That Counts, Mastering the Art of YOU vs you"
