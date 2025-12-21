@@ -135,15 +135,13 @@
       <p>
         © <span id="year"></span> 
 
-const li = document.createElement('li');
+const link = document.createElement("a");
+link.href = "https://www.mywhothoughts.com";
+link.textContent = "MyWHOthoughts.com";
+link.target = "_blank"; // optional
+link.rel = "noopener noreferrer";
 
-const link = document.createElement('a');
-link.href = 'https://www.myWHOthoughts.com';
-link.textContent = 'www.myWHOthoughts.com';
-link.target = '_blank';
-
-li.appendChild(link);
-document.querySelector('ul').appendChild(li);<br/>
+document.body.appendChild(link);        
 
        
   Based on the book "It's the Thought That Counts, Mastering the Art of YOU vs you"
