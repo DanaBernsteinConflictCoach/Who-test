@@ -161,7 +161,7 @@ function renderValuesPromptsStep(){
 
   wrap.innerHTML = `
     <h2>Values (Discover)</h2>
-    <p>Values are your <b>non-negotiables</b>. We’ll discover candidates from your proudest moments first, then road-test them.</p>
+    <p>There are two ways to uncover your Values (1) what is your proudest moment at any point in your life and (2) what makes you upset.</b>. We’ll discover candidates from your proudest moments first, then road-test them.</p>
 
     <div class="block">
       <h3>Prompt A: Proud Moment</h3>
