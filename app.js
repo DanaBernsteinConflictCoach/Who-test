@@ -155,7 +155,7 @@ function renderValuesPromptsStep(){
 
   wrap.innerHTML = `
     <h2>Values (Discover)</h2>
-    <p>Values are your <b>non-negotiables</b>. We’ll discover candidates from real moments first, then road-test them.</p>
+    <p>Values are your <b>non-negotiables</b>. We’ll discover candidates from your proudest moments first, then road-test them.</p>
 
     <div class="block">
       <h3>Prompt A: Proud Moment</h3>
@@ -165,7 +165,7 @@ function renderValuesPromptsStep(){
       </div>
       <div class="field">
         <label>Why were you proud?</label>
-        <textarea id="proudWhy" placeholder="List the reasons. List the Values that allowed you to accomplish the goal / gave you pride.">${escapeHtml(state.proudWhy || "")}</textarea>
+        <textarea id="proudWhy" placeholder="Reflect on the reasons you felt pride. List the Values that allowed you to accomplish the goal / gave you pride.">${escapeHtml(state.proudWhy || "")}</textarea>
       </div>
     </div>
 
