@@ -16,7 +16,6 @@ const DEFAULTS = {
   // PILLARS discovery
   happiestMoment: "",
   pillarCandidates: [],          // raw candidates (strings)
-  pillarCandidates: [],         // traits / characteristics
   pillarsFinal: [],             // after pillar road test YES (is pillar)
   movedToValuesFromPillars: [], // pillar road test anger YES -> value
 
@@ -37,19 +36,18 @@ const VALUE_OPTIONS = [
   "Considerate","Perseverance","Open Mind","Efficient","Gratitude","Ethics" 
 ];
 
-};
 
 const PILLAR_OPTIONS = [
   "Community","Connection","Builder","Problem Solver","Peace","Laughter","Fun","Creative",
-  "Kind","Goofy","Nerdy","Caretaker","Adventurer","Love","Impact","Service","Earthy"
-  "Optimist","Compassion","Passion","Humor","Sarcastic","Faith","Helper","Bold" 
-  "Considerate","Present","Open Mind","Listner","Gratitude","Patient",'Confident" 
+  "Kind","Goofy","Nerdy","Caretaker","Adventurer","Love","Impact","Service","Earthy",
+  "Optimist","Compassion","Passion","Humor","Sarcastic","Faith","Helper","Bold", 
+  "Considerate","Present","Open Mind","Listner","Gratitude","Patient",'Confident", 
 ];
 
 
 const IDEAL_EMOTION_OPTIONS = [
   "Calm","Joy","Present","Energized","Grateful","Content","Freedom","Playful",
-  "Present","Clear","Connected","Inspired","Carefree"
+  "Peace","Clear","Connected","Inspired","Carefree"
 ];
 
 let state = loadState();
