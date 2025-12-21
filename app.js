@@ -1,4 +1,4 @@
-const MAIN_SITE = "HTTP://MyWHOthoughts.com";
+const MAIN_SITE = "http://MyWHOthoughts.com";
 const STORAGE_KEY = "who_assessment_v2_dana";
 
 const DEFAULTS = {
@@ -41,7 +41,7 @@ const PILLAR_OPTIONS = [
   "Community","Connection","Builder","Problem Solver","Peace","Laughter","Fun","Creative",
   "Kind","Goofy","Nerdy","Caretaker","Adventurer","Love","Impact","Service","Earthy",
   "Optimist","Compassion","Passion","Humor","Sarcastic","Faith","Helper","Bold", 
-  "Considerate","Present","Open Mind","Listner","Gratitude","Patient",'Confident", 
+  "Considerate","Present","Open Mind","Listener","Gratitude","Patient","Confident" 
 ];
 
 
