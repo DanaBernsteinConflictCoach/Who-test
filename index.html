@@ -134,17 +134,19 @@
     <div class="container">
       <p>
         © <span id="year"></span> 
-);
-<li>const el = document.getElementById('container');
 
-el.innerHTML = el.textContent.replace(
-  'myWHOthoughts.com',
-  '<a href="https://www.myWHOthoughts.com">myWHOthoughts.com</a>'
-);
+const li = document.createElement('li');
 
-        
-        
-        Based on the book "It's the Thought That Counts, Mastering the Art of YOU vs you"
+const link = document.createElement('a');
+link.href = 'https://www.myWHOthoughts.com';
+link.textContent = 'www.myWHOthoughts.com';
+link.target = '_blank';
+
+li.appendChild(link);
+document.querySelector('ul').appendChild(li);<br/>
+
+       
+  Based on the book "It's the Thought That Counts, Mastering the Art of YOU vs you"
       </p>
     </div>
   </footer>
