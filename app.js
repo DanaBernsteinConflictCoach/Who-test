@@ -485,6 +485,26 @@ wrap.innerHTML = `
 
   stepHost.appendChild(wrap);
 
+// ensure array exists
+state.pillarCandidates = Array.isArray(state.pillarCandidates)
+  ? state.pillarCandidates
+  : [];
+
+// render Pillar option pills
+const pillarPills = wrap.querySelector("#pillarPills");
+
+PILLAR_OPTIONS.forEach(p =>
+  pillarPills.appendChild(
+    makePill(p, state.pillarCandidates, 12)
+  )
+);
+
+
+
+
+
+
+  
   const happiestMoment = wrap.querySelector("#happiestMoment");
   happiestMoment.addEventListener("input", () => {
     state.happiestMoment = happiestMoment.value;
