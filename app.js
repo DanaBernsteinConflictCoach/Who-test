@@ -161,7 +161,8 @@ function renderValuesPromptsStep(){
 
   wrap.innerHTML = `
     <h2>Values (Discover)</h2>
-    <p>There are two ways to uncover your Values (1) what is your proudest moment at any point in your life and (2) what makes you upset.</b> We’ll discover candidates from your proudest moments first, then road-test them.</p>
+    <p>
+    There are two ways to uncover your Values (1) what is your proudest moment at any point in your life and (2) what makes you upset. We’ll discover candidates from your proudest moments first, then road-test them.</p>
 
     <div class="block">
       <h3>Prompt A: Proud Moment</h3>
@@ -270,7 +271,7 @@ function renderValuesRoadTestStep(){
     <div class="block">
       <h3>Road test each candidate. Values, when crossed, evoke an emotion. Example: you can have high integrity, but not get bothered if others do not have that quality. Integrity would not be considered a Value)</h3>
       <div id="roadList"></div>
-      <div class="help">Tip: imagine someone you wotl with / live with blatantly crossing your Values.</div>
+      <div class="help">Tip: imagine someone you work with / live with blatantly crossing your Values.</div>
     </div>
 
     <div class="block">
@@ -379,8 +380,12 @@ function renderPillarsStep(){
 
   wrap.innerHTML = `
     <h2>Pillars (Discover)</h2>
-    <p>Are positive core characteristics that describe you as your best (they are not tied to accomplishment or how you think you "should be"). </br> You can find them by recalling any time in your life when you just felt so "you," when time melted away, and you felt freedom from judgment (self or others)</br>
-
+    <p>
+    Are positive core characteristics that describe you as your best (they are not tied to accomplishment or how you think you "should be"). 
+    </br> 
+    You can find them by recalling any time in your life when you just felt so "you," when time melted away, and you felt freedom from judgment (self or others)</br>
+    </p>
+    
     <div class="block">
       <h3>Prompt: Happiest / Best Self</h3>
       <div class="field">
