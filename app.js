@@ -383,7 +383,7 @@ function renderPillarsStep(){
     <p>
     Are positive core characteristics that describe you as your best (they are not tied to accomplishment or how you think you "should be"). 
     </br> 
-    You can find them by recalling any time in your life when you just felt so "you," when time melted away, and you felt freedom from judgment (self or others)</br>
+    You can find them by recalling any time in your life when you just felt so "you," when time melted away, and you felt freedom from judgment (self or others).</br>
     </p>
     
     <div class="block">
@@ -397,9 +397,8 @@ function renderPillarsStep(){
     </div>
 
     <div class="block">
-      <h3>Add Pillar candidates (traits)</h3>
+      <h3>Add Pillar candidates (add a trait, then press enter)</h3>
       <div class="field">
-        <label>Add a trait (then press Enter)</label>
         <input id="customPillarTrait" type="text" placeholder="Example: Community, Passion, Problem Solver, Service, Connected, Builder, Optimist, Creative, Present, Earthy, Playful, Calm, Bold, Curious, Grounded..." />
       </div>
 
