@@ -258,7 +258,7 @@ function renderValuesRoadTestStep(){
 
   wrap.innerHTML = `
     <h2>Values (Road Test)</h2>
-    <p>Road test rule: <b>In your personal or professinal life, crosses your Value, does it evoke anger / frustration / upset?</b></p>
+    <p>Road test rule: <b>In your personal or professional life, crosses your Value, does it evoke anger / frustration / upset?</b></p>
 
     <div class="block">
       <h3>Instructions</h3>
